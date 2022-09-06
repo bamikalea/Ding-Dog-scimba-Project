@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(200, 200, 255);
+    font-family: 'poppins', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 2em;
+    max-width: 500px;
+}
+
+img{
+    width: 100%;
+}
+
+.wrapper{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* ==========  Navigation  ======= */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #fff;
+    width: 100%;
+}
+
+nav img{
+    width: 30px;
+}
+
+.logo{
+    width: 70px;
+    margin: 0 2em;
+}
+
+
+
+/* ==========  Main  ======= */
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+    background-color: #fff;
+}
+
+.container{
+    position: relative;
+    background-color: rgba(11, 10, 10, 9);
+    color: #fff;
+    border-radius: 20px;
+    margin: .5em auto 0;
+    overflow: hidden;
+}
+
+.badges-container {
+    position: absolute;
+    top: 3em;
+    left: 2em;
+}
+
+.badge{
+    max-width: 150px;
+    transform: rotate(-30deg);
+}
+
+.dog-text{
+    position: absolute;
+    bottom: 1.5em;
+    left: 1em;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 auto .3em;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #dedede;
+}
+
+.empty-state{
+    height: 20em;
+    padding: 8em 4em;
+    text-align: center;
+
+}
+
+
+/* ==========  Section section  ======= */
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 0 ;
+}
+
+.btn {
+    background-color:#fff;
+    border-radius: 100%;
+    max-width: 70px;
+    padding: 1em;
+    margin: 0 1em;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    transition: ease .5s;
+}
+
+.reject-btn:hover{
+    background-color: #FFE7EF;
+}
+.like-btn:hover{
+    background-color: #DBFFF4;;
+}
